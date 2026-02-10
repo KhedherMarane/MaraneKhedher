@@ -30,7 +30,7 @@ public class Chambre {
     @ManyToOne
     Bloc bloc;
     @ToString.Exclude
-    //reservation elli kenet tetla3 louta (kemla) Ignore tjiblek ken l ID
+
     @JsonIgnore
     @OneToMany
     List<Reservation> reservations;
